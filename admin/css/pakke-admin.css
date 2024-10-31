@@ -1,0 +1,144 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#woocommerce_pakke_shipping_apistatus{
+    border: none !important;
+    /*color: green !important;*/
+    font-weight: 900 !important;
+}
+#logo-pakke{
+    display: block;
+    margin-bottom: 40px;
+}
+.tabla-cotizar table,.tabla-guias table{
+    width: 100% !important;
+    margin-bottom:50px ;
+}
+.tabla-cotizar tr,.tabla-guias tr{
+    /*border: 1px solid black;*/
+
+}
+.tabla-cotizar th,.tabla-cotizar td,.tabla-guias th,.tabla-guias td{
+   padding: 15px;
+
+}
+.tabla-cotizar input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.tabla-cotizar input[type="radio"]:checked{
+    background: #3582C4;
+}
+.botones-guia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+.load-cotizar,.load-guia{
+    margin-left: 20px;
+    display: none
+}
+#pakke-btn-guia{
+    margin-left: 20px;
+}
+.td-precio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tabla-guias h2{
+    font-size: 20px !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+}
+.tabla-guias{
+    margin-top: 50px;
+    padding: 20px;
+}
+.leyenda{
+    display: flex;
+}
+.leyenda img{
+    margin-right: 10px;
+}
+.leyenda p{
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#doc .row{
+    margin: 50px;
+}
+.pakke-woo-settings-title{
+    font-weight: bold !important;
+}
+.cotizacion-table tbody{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cotizacion-table .titledesc{
+    display: none;
+}
+.cotizacion-table tr:nth-child(2n-1){
+    width: 30%;
+
+}
+.cotizacion-table tr:nth-child(2n){
+    width: 70%;
+
+}
+.pakke-woo-settings-check {
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none !important;
+    width: 40px !important; ;
+    height: 40px !important;
+    z-index: -1;
+    background: url('../img/checkoff.png') no-repeat !important;
+
+
+    border: none !important;
+
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+label > .pakke-woo-settings-check{
+    display: inline-block;
+    width: 5em;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+}
+.pakke-woo-settings-check:checked {
+    background: url('../img/checkon.png') no-repeat !important;
+    appearance: none !important;
+    border: 1px solid transparent !important;
+    color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    z-index: -1;
+}
+.pakke-woo-settings-check:checked::before{
+    visibility: hidden;
+}
+
+input:checked ~ .tab-content{
+    overflow: auto;
+}
+.tab-label:hover {
+    color: #ffffff;
+}
+#wpfooter{
+    display: none !important;
+}
+
+.medidas{
+    width: 19%;
+    margin: 0 4px !important;
+}
+.medidas > input{
+    width: 130px !important;
+}
